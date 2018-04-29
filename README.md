@@ -1,22 +1,22 @@
-# Four Digit Display (TM1637)
-makecode Four Digit Display (TM1637) Package for microbit  
+# 四位数码管 (TM1637)
+makecode 四位数码管 (TM1637) microbit 软件包
 
-LED Digit Display Module with 1-6 (normal four) 7-segment LED, it can show number. It has TM1637 chip inside, control with a 2-wire interface.  
+带1-6（普通4）7段LED的LED数字显示模块，它可以显示数字。里面有TM1637芯片，用一个2线接口控制；
 
-Author: shaoziyang  
-Date:   2018.Mar  
+作者: 朱林
+时间: 2018/4
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/TM1637/master/icon.png)
+![image](https://github.com/zhuning239/TM1637/blob/master/icon.png)
 
-## Usage
+## 使用方式
 
-open your microbit makecode project, in Add Package, paste  
+打开 makecode 编辑器，在项目中选择添加软件包，然后在地址栏输入下面网址：  
 
-https://github.com/microbit-makecode-packages/TM1637  
+https://github.com/zhuning239/TM1637  
 
-to search box then search.
+搜索后就可以添加并使用本软件包了。
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/TM1637/master/4-LED.jpg)
+![image](https://github.com/zhuning239/TM1637/blob/master/4-LED.jpg)
 
 ## API
 
@@ -53,19 +53,17 @@ show, True will show DP, other will hide it
 - **intensity(dat: number)**  
 set display intensity.  
 
-## Demo
+## 演示
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/TM1637/master/demo.jpg)
+![image](https://github.com/zhuning239/TM1637/blob/master/demo.jpg)
 
-## License  
+## 授权方式  
 
 MIT
 
-Copyright (c) 2018, microbit/micropython Chinese community  
+湖南创乐博智能科技有限公司 
 
-## Supported targets  
+## 支持硬件 
 
 * for PXT/microbit
 
-
-[From microbit/micropython Chinese community](http://www.micropython.org.cn) 
